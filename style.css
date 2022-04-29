@@ -16,7 +16,7 @@ h2{
     background-color: white;
     height: 400px;
     width: 700px;
-    margin-left: 380px;
+    margin: 0 auto;
     border-radius: 20px;
     display: flex;
 }
@@ -38,6 +38,13 @@ h2{
     margin-right: 30px;
     border-radius: 30px;
 }
+
+    #input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 #bill{
     margin-top: 30px;
     margin-left: 20px;
@@ -74,6 +81,8 @@ h2{
     border-radius: 5px;
     color: #fff;
     font-size: 15px;
+    outline: none;
+
 }#two{
     background-color: green;
     padding: 10px 20px;
@@ -134,6 +143,9 @@ h2{
     margin-top: 60px;
     margin-left: 70px;
 }
+button{
+    outline: none;
+}
 #btn{
     margin-top: 80px;
     margin-left: 40px;
@@ -144,6 +156,9 @@ h2{
 #firstBtn{
     height: 70px;
     width: 90px;
+}
+#btn{
+    border-radius: 5px;
 }
 
 
@@ -161,14 +176,22 @@ h2{
         margin: 0 auto;
     }
     #container1{
-        padding-top: 2px;
+        padding-top: px;
         justify-content: center;
+        height: 380px;
         
 
+    }
+    #content{
+        margin: inherit;
+        padding: 1px;
     }
     #secondCon{
         padding-bottom: 10px;
         margin-left: 20px;
+    }
+    #secCon{
+        padding-left: 18px;
     }
   }
 
