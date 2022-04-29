@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -5,6 +6,7 @@
 body{
     background-color: #98FF98;
 }
+
 h2{
     text-align: center;
     margin-top: 100px;
@@ -31,7 +33,7 @@ h2{
     height: 360px;
     width: 350px;
     background-color: #004225;
-    float: right;
+    
     margin-top: 22px;
     margin-right: 30px;
     border-radius: 30px;
@@ -39,6 +41,7 @@ h2{
 #bill{
     margin-top: 30px;
     margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 #input2::-webkit-outer-spin-button,
 #input2::-webkit-inner-spin-button {
@@ -54,6 +57,7 @@ h2{
 #secInside h3{
     margin-left: 20px;
     margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 #firstNextMain{
     display: flex;
@@ -68,46 +72,63 @@ h2{
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
 }#two{
     background-color: green;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    
 }#three{
     background-color: green;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
 }
 #four{
     background-color: green;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
 }#five{
     background-color: green;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
 }#six{
     background-color: green;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
 }
 #secondNextMain{
     display: flex;
 }
 #secCon{
     display: flex;
+    color: white;
 }
 #firstCon{
     margin-top: 60px;
     margin-left: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 #firstCons{
     margin-top: 60px;
     margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 #amount{
     margin-top: 60px;
@@ -136,12 +157,18 @@ h2{
         height: 780px;
         width: 400px;
         top: 50px;
+        padding:28px;
+        margin: 0 auto;
     }
     #container1{
-        padding-top: -30px;
+        padding-top: 2px;
+        justify-content: center;
+        
+
     }
     #secondCon{
         padding-bottom: 10px;
+        margin-left: 20px;
     }
   }
 
