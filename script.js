@@ -7,12 +7,11 @@ var btn = document.getElementById('btn')
 
 
 
-
 firstSet.addEventListener('click', event =>{
     var final = event.target.value * input.value / input2.value;
     final = Math.round(final * 100)/100;
     if(input2.value == ''){
-        alert('please enter number of people')
+        alert('Number of people cannot be empty')
     }else{
         amount.innerHTML = final
         amountInt= parseFloat(amount.innerHTML)
